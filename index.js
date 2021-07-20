@@ -7,12 +7,12 @@ client.on('ready', () => {
 	client.request('SET_ACTIVITY', {
 		pid: process.pid,
 		activity : {
-			details : "Hi, I am details",
+			details : "Discord Help Bot SpaceX",
 			assets : {
-				large_image : "icon",
-				large_text : "Hi, I am large_text"
+				large_image : "bad_girl",
+				large_text : "tati"
 			},
-			buttons : [{label : "BUTTON1" , url : "https://www.youtube.com/results?search_query=1"},{label : "BUTTON2" , url : "https://www.youtube.com/results?search_query=2"}]
+			buttons : [{label : "SpaceX Invite Link" , url : "https://discord.gg/ZffbQEm7pQ"}]
 		}
 	});
 
